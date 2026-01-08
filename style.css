@@ -37,3 +37,147 @@ body {
 .button button:hover {
   background-color: #32754d;
 }
+
+.img-box {
+  
+  width: 100%;
+  height: 674px;
+  object-fit: cover;
+  overflow: hidden;
+  position: relative;
+}
+.img-box img {
+  height: 100%;
+  width: 100%;
+}
+
+.box-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.dot-in {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #32754d;
+  z-index: 10;
+}
+.dot-out {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #acc9b7;
+  z-index: 5;
+  position: absolute;
+}
+.out-out{
+    height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background-color: #d3e2d9;
+  position: absolute;
+}
+
+.el-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 229px;
+  height: 36px;
+  gap: 10px;
+  border-radius: 20px;
+  color: #32754d;
+  background-color: #fff;
+  margin-left: 300px;
+  margin-bottom: 20px;
+}
+.el-2{
+  width: 770px;
+  height: 168px;
+  margin-left: 100px;
+  
+}
+.el-2 h1,h2{
+  font-size: 72px;
+}
+.col-1{
+  margin-left: 5px;
+  color: white;
+}
+.col-2{
+  color: #32754d;
+}
+
+.el-3 p{
+  margin-left: 125px;
+  margin-top: 20px;
+  color: white;
+  line-height: 25px;
+}
+
+.button-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  width: 465px;
+  gap: 10px;
+  margin-left: 200px;
+  margin-top:10px ;
+}
+
+.button-1 button{
+  background-color: #32754d;
+  color: white;
+  border: none;
+  padding: 17px;
+
+}
+.button-2 button{
+  background-color: transparent;
+  color: white;
+  padding: 15px;
+  border:none ;
+}
+
+.button-1 img{
+  width: 20px;
+}
+.button-2 img{
+  width: 30px;
+  padding-left: 10px;
+}
+.color-div{
+  background-color: #32754d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.button-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.button-2 button:hover{
+  background-color: #32754d;
+}
+.color-div :hover{
+  background-color: #134427;
+}
+
+
