@@ -25,6 +25,16 @@ body {
 .link a {
   text-decoration: none;
   color: black;
+  cursor: pointer;
+}
+.link a:hover {
+  color: #32754d;
+}
+.sc-logo a {
+  cursor: pointer;
+}
+.sc-logo a:hover {
+  transform: scale(1.1);
 }
 .button button {
   background-color: #469064;
@@ -33,6 +43,7 @@ body {
   border-radius: 3px;
   box-shadow: none;
   border: none;
+  cursor: pointer;
 }
 .button button:hover {
   background-color: #32754d;
@@ -136,16 +147,18 @@ h2 {
 }
 
 .button-1 button {
-  background-color: #32754d;
+  background-color: transparent;
   color: white;
   border: none;
   padding: 17px;
+  cursor: pointer;
 }
 .button-2 button {
   background-color: transparent;
   color: white;
   padding: 15px;
   border: none;
+  cursor: pointer;
 }
 
 .button-1 img {
@@ -170,19 +183,25 @@ h2 {
   justify-content: center;
   border: 1px solid white;
   border-radius: 10px;
+  cursor: pointer;
 }
 .button-2:hover {
   background-color: #32754d;
 }
-.button-2 button:hover {
+.color-div {
   background-color: #32754d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
   border-radius: 10px;
+  cursor: pointer;
 }
-.color-div :hover {
+.color-div:hover {
   background-color: #134427;
   border-radius: 10px;
 }
-
 
 .card-box {
   display: flex;
@@ -288,17 +307,16 @@ h2 {
   padding: 17px;
   gap: 10px;
   border-radius: 20px;
+  cursor: pointer;
 }
 .button-4 button {
-  background-color: #32754d;
+  background-color: transparent;
   color: white;
   border: none;
+  cursor: pointer;
 }
 
 .button-4:hover {
-  background-color: #144e2b;
-}
-.button-4 button:hover {
   background-color: #144e2b;
 }
 .sec-3-div p {
