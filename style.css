@@ -235,3 +235,27 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+.section-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 840px;
+  background-color: #e9e4e4;
+  padding: 120px;
+  
+}
+.p-1{
+  margin-bottom: 20px;
+}
+.p-2{
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.list-2{
+  line-height: 35px;
+}
+.cek-pnt{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
