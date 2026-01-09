@@ -39,7 +39,6 @@ body {
 }
 
 .img-box {
-  
   width: 100%;
   height: 674px;
   object-fit: cover;
@@ -80,15 +79,15 @@ body {
   z-index: 5;
   position: absolute;
 }
-.out-out{
-    height: 17px;
+.out-out {
+  height: 17px;
   width: 17px;
   border-radius: 50%;
   background-color: #d3e2d9;
   position: absolute;
 }
 
-.el-1{
+.el-1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,31 +100,31 @@ body {
   margin-left: 300px;
   margin-bottom: 20px;
 }
-.el-2{
+.el-2 {
   width: 770px;
   height: 168px;
   margin-left: 100px;
-  
 }
-.el-2 h1,h2{
+.el-2 h1,
+h2 {
   font-size: 72px;
 }
-.col-1{
+.col-1 {
   margin-left: 5px;
   color: white;
 }
-.col-2{
+.col-2 {
   color: #32754d;
 }
 
-.el-3 p{
+.el-3 p {
   margin-left: 125px;
   margin-top: 20px;
   color: white;
   line-height: 25px;
 }
 
-.button-body{
+.button-body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,31 +132,30 @@ body {
   width: 465px;
   gap: 10px;
   margin-left: 200px;
-  margin-top:10px ;
+  margin-top: 10px;
 }
 
-.button-1 button{
+.button-1 button {
   background-color: #32754d;
   color: white;
   border: none;
   padding: 17px;
-
 }
-.button-2 button{
+.button-2 button {
   background-color: transparent;
   color: white;
   padding: 15px;
-  border:none ;
+  border: none;
 }
 
-.button-1 img{
+.button-1 img {
   width: 20px;
 }
-.button-2 img{
+.button-2 img {
   width: 30px;
   padding-left: 10px;
 }
-.color-div{
+.color-div {
   background-color: #32754d;
   display: flex;
   align-items: center;
@@ -166,19 +164,25 @@ body {
   padding-left: 10px;
   border-radius: 10px;
 }
-.button-2{
+.button-2 {
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid white;
   border-radius: 10px;
 }
-.button-2 button:hover{
+.button-2:hover {
   background-color: #32754d;
 }
-.color-div :hover{
-  background-color: #134427;
+.button-2 button:hover {
+  background-color: #32754d;
+  border-radius: 10px;
 }
+.color-div :hover {
+  background-color: #134427;
+  border-radius: 10px;
+}
+
 
 .card-box {
   display: flex;
@@ -188,10 +192,9 @@ body {
 }
 .card-size {
   height: 300px;
-  width: 322px;
+  width: 320px;
   background-color: #ffffff;
   border-radius: 10px;
- 
 }
 
 .card-section {
@@ -210,7 +213,6 @@ body {
   padding-top: 30px;
   padding-left: 120px;
   padding-right: 120px;
-
 }
 .content h1 {
   font-size: 48px;
@@ -228,35 +230,112 @@ body {
   border-radius: 50%;
   background-color: rgb(221, 94, 44);
 }
-.card-p{
+.card-p {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 20px;
 }
-.section-2{
+
+.section-2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 840px;
   background-color: #e9e4e4;
   padding: 120px;
-  
 }
-.p-1{
+.p-1 {
   margin-bottom: 20px;
-  color:#32754d;
 }
-.p-2{
+.p-2 {
   margin-top: 20px;
   margin-bottom: 25px;
 }
-.list-2{
+.list-2 {
   line-height: 35px;
 }
-.cek-pnt{
+.cek-pnt {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.section-3 {
+  height: 506px;
+  background-color: #e9e4e4;
+  display: flex;
+  justify-content: center;
+}
+.sec-3-div {
+  width: 1360px;
+  height: 384px;
+  background-color: #f1dddd;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+  border-radius: 10px;
+}
+.button-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #32754d;
+  color: white;
+  border: none;
+  padding: 17px;
+  gap: 10px;
+  border-radius: 20px;
+}
+.button-4 button {
+  background-color: #32754d;
+  color: white;
+  border: none;
+}
+
+.button-4:hover {
+  background-color: #144e2b;
+}
+.button-4 button:hover {
+  background-color: #144e2b;
+}
+.sec-3-div p {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.footer-sec {
+  height: 348px;
+  background-color: #131c42;
+  padding: 120px;
+}
+.sc-logo {
+  display: flex;
+  gap: 15px;
+  padding-top: 8px;
+}
+.sc-logo img {
+  width: 20px;
+}
+.social p {
+  color: white;
+}
+
+.logo-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.footer-sec p {
+  color: #ffffff;
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
 }
