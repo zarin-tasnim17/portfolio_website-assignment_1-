@@ -180,4 +180,58 @@ body {
   background-color: #134427;
 }
 
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 44px;
+}
+.card-size {
+  height: 300px;
+  width: 322px;
+  background-color: #ffffff;
+  border-radius: 10px;
+ 
+}
 
+.card-section {
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  background-color: #e9e4e4;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 50px;
+  padding-top: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+
+}
+.content h1 {
+  font-size: 48px;
+}
+.content p {
+  font-size: 16px;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: rgb(221, 94, 44);
+}
+.card-p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
